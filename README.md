@@ -41,5 +41,5 @@ career-form/
 
 ## Documentation
 
-See the [`docs/`](./docs) folder (or open `docs/index.html` in a browser) for a full walkthrough of every admin screen with screenshots.
+See the [[`[docs/`](./docs](https://sharesofttech.github.io/Career-Form-Wp-Plugin/))](https://sharesofttech.github.io/Career-Form-Wp-Plugin/) folder (or open `[docs/index.html](https://sharesofttech.github.io/Career-Form-Wp-Plugin/)` in a browser) for a full walkthrough of every admin screen with screenshots.
 
