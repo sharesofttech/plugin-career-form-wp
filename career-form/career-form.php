@@ -3,7 +3,7 @@
  * Plugin Name: Career Form
  * Description: Customer career application form plugin
  * Version: 1.0.1
- * Author: SST
+ * Author: Sharesoft Technology
  * Text Domain: career-form
  *
  * @package Career_Form
