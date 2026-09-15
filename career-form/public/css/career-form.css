@@ -1,0 +1,751 @@
+/* =========================================================
+   CAREER FORM - THEME SAFE BASE
+   ========================================================= */
+
+.career_form_container,
+.career_form_container *,
+.career_form_container *::before,
+.career_form_container *::after {
+    box-sizing: border-box;
+}
+
+
+/* =========================================================
+   MAIN CONTAINER
+   ========================================================= */
+
+.career_form_container {
+    width: 100% !important;
+    max-width: 800px !important;
+
+    margin: 40px auto 60px !important;
+    padding: 35px !important;
+
+    float: none !important;
+
+    background: #ece9e9 !important;
+
+    border: 1px solid #dddddd !important;
+    border-radius: 8px !important;
+
+    position: relative !important;
+
+    isolation: isolate !important;
+
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 16px !important;
+    line-height: 1.5 !important;
+
+    color: #222222 !important;
+}
+
+
+/* =========================================================
+   HEADING
+   ========================================================= */
+
+.career_form_container h1 {
+    display: block !important;
+
+    width: 100% !important;
+
+    margin: 0 0 30px 0 !important;
+    padding: 0 !important;
+
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 42px !important;
+    font-weight: 600 !important;
+    line-height: 1.2 !important;
+
+    color: #111111 !important;
+
+    text-align: left !important;
+}
+
+
+/* =========================================================
+   FORM
+   ========================================================= */
+
+.career_form_container form {
+    display: block !important;
+
+    width: 100% !important;
+    max-width: 100% !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    float: none !important;
+
+    background: transparent !important;
+}
+
+
+/* =========================================================
+   FORM GROUP
+   ========================================================= */
+
+.career_form_container .career_form_group {
+    display: block !important;
+
+    width: 100% !important;
+
+    margin: 0 0 20px 0 !important;
+    padding: 0 !important;
+
+    float: none !important;
+
+    position: relative !important;
+}
+
+
+/* =========================================================
+   LABEL
+   ========================================================= */
+
+.career_form_container label {
+    display: inline-block !important;
+
+    width: auto !important;
+
+    margin: 0 0 7px 0 !important;
+    padding: 0 !important;
+
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    line-height: 1.5 !important;
+
+    color: #222222 !important;
+
+    background: transparent !important;
+}
+
+
+/* Required *
+   ========================================================= */
+
+.career_form_container .career_required {
+    display: inline !important;
+
+    margin-left: 3px !important;
+    padding: 0 !important;
+
+    color: #d00000 !important;
+
+    font-weight: 700 !important;
+}
+
+
+/* =========================================================
+   INPUTS
+   ========================================================= */
+
+.career_form_container input[type="text"],
+.career_form_container input[type="email"],
+.career_form_container input[type="tel"],
+.career_form_container input[type="number"],
+.career_form_container input[type="date"],
+.career_form_container input[type="url"],
+.career_form_container input[type="password"] {
+    display: block !important;
+
+    width: 100% !important;
+    max-width: 100% !important;
+
+    height: 50px !important;
+
+    margin: 0 !important;
+    padding: 10px 14px !important;
+
+    border: 1px solid #b8b8b8 !important;
+    border-radius: 5px !important;
+
+    background: #ffffff !important;
+    color: #222222 !important;
+
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    line-height: 1.4 !important;
+
+    outline: none !important;
+    box-shadow: none !important;
+
+    box-sizing: border-box !important;
+}
+
+/* Placeholder */
+
+.career_form_container input::placeholder {
+    color: #777777 !important;
+    opacity: 1 !important;
+}
+
+
+/* Focus */
+
+.career_form_container input:focus {
+    border-color: #2271b1 !important;
+
+    background: #ffffff !important;
+
+    color: #222222 !important;
+
+    outline: none !important;
+
+    box-shadow: 0 0 0 2px rgba(34, 113, 177, 0.15) !important;
+}
+
+
+/* =========================================================
+   SELECT
+   ========================================================= */
+
+.career_form_container select {
+    display: block !important;
+
+    width: 100% !important;
+    max-width: 100% !important;
+
+    height: 50px !important;
+
+    margin: 0 !important;
+
+    padding: 10px 40px 10px 14px !important;
+
+    border: 1px solid #b8b8b8 !important;
+    border-radius: 5px !important;
+
+    background-color: #ffffff !important;
+    color: #222222 !important;
+
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    line-height: 1.4 !important;
+
+    box-sizing: border-box !important;
+
+    outline: none !important;
+    box-shadow: none !important;
+
+    appearance: auto !important;
+    -webkit-appearance: auto !important;
+}
+
+/* =========================================================
+   INTL TEL INPUT
+   ========================================================= */
+
+.career_form_container .iti {
+    display: block !important;
+
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+.career_form_container .iti input[type="tel"] {
+    width: 100% !important;
+    max-width: 100% !important;
+
+    padding-top: 10px !important;
+    padding-right: 14px !important;
+    padding-bottom: 10px !important;
+
+    /*
+     * Leave enough space for
+     * country flag + dial code.
+     */
+    padding-left: 90px !important;
+}
+
+
+/* Country dropdown */
+
+.career_form_container .iti__country-container {
+    z-index: 10 !important;
+}
+
+.career_form_container .iti__dropdown-content {
+    z-index: 99999 !important;
+}
+
+
+/* =========================================================
+   QUALIFICATION SUGGESTIONS
+   ========================================================= */
+
+.career_form_container #career_qualification_suggestions {
+    position: relative !important;
+
+    width: 100% !important;
+    max-height: 220px !important;
+
+    overflow-y: auto !important;
+
+    margin: 3px 0 0 0 !important;
+    padding: 0 !important;
+
+    background: #ffffff !important;
+
+    border: 1px solid #dddddd !important;
+    border-radius: 5px !important;
+
+    z-index: 99999 !important;
+
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.10) !important;
+}
+
+.career_form_container .career_qualification_option {
+    display: block !important;
+
+    width: 100% !important;
+
+    margin: 0 !important;
+    padding: 10px 12px !important;
+
+    background: #ffffff !important;
+
+    color: #222222 !important;
+
+    border: 0 !important;
+    border-bottom: 1px solid #eeeeee !important;
+
+    font-size: 15px !important;
+
+    cursor: pointer !important;
+}
+
+.career_form_container .career_qualification_option:hover {
+    background: #f5f5f5 !important;
+}
+
+/* =========================================================
+   RESUME UPLOAD - COMPACT SIZE
+   ========================================================= */
+
+.career_form_container .career_upload_box {
+    display: block !important;
+
+    width: 100% !important;
+    min-height: 100px !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    border: 2px dashed #999999 !important;
+    border-radius: 7px !important;
+
+    background: #ffffff !important;
+
+    cursor: pointer !important;
+}
+
+.career_form_container .career_upload_content {
+    display: block !important;
+
+    width: 100% !important;
+
+    margin: 0 !important;
+    /* padding: 16px 15px !important; */
+
+    text-align: center !important;
+
+    background: #ffffff !important;
+    color: #222222 !important;
+}
+
+.career_form_container .career_upload_content strong {
+    display: block !important;
+
+    margin: 5px 0 -20px 0 !important;
+    font-size: 15px !important;
+    font-weight: 600 !important;
+
+    color: #222222 !important;
+}
+
+.career_form_container .career_upload_or {
+    display: inline-block !important;
+
+    margin: 2px 0 !important;
+
+    color: #555555 !important;
+}
+
+.career_form_container .career_browse_btn {
+    display: inline-block !important;
+
+    margin: 3px 5px 0 0 !important;
+    padding: 5px 12px !important;
+
+    color: #f16422 !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+
+    cursor: pointer !important;
+}
+
+.career_form_container #career_file_count {
+    color: #555555 !important;
+}
+
+/* Selected file */
+
+.career_form_container .career_selected_file {
+    width: 100% !important;
+    margin-top: 10px !important;
+    padding: 0 !important;
+    color: #222222 !important;
+}
+
+
+/* =========================================================
+   BUTTON
+   ========================================================= */
+
+.career_form_container .career_form_action {
+    display: block !important;
+    width: 100% !important;
+
+    margin: 10px 0 0 0 !important;
+    padding: 0 !important;
+
+    float: none !important;
+
+    text-align: center !important;
+}
+
+.career_form_container .career_form_action button {
+    display: inline-block !important;
+
+    width: auto !important;
+    min-width: 150px !important;
+
+    height: auto !important;
+
+    margin: 0 !important;
+    padding: 10px 22px !important;
+
+    border: 0 !important;
+    border-radius: 5px !important;
+
+    background: #000000 !important;
+
+    color: #ffffff !important;
+
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 17px !important;
+    font-weight: 600 !important;
+    line-height: 1.4 !important;
+
+    cursor: pointer !important;
+
+    box-shadow: none !important;
+
+    appearance: none !important;
+    -webkit-appearance: none !important;
+}
+
+.career_form_container .career_form_action button:hover {
+    background: #222222 !important;
+    color: #ffffff !important;
+}
+
+.career_form_container .career_form_action button:focus {
+    outline: none !important;
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* =========================================================
+   SUCCESS MESSAGE
+   ========================================================= */
+
+.career_success_message {
+    display: none !important;
+
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+
+    width: 100% !important;
+    max-width: 800px !important;
+
+    margin: 0 auto 15px auto !important;
+    padding: 16px 20px 16px 52px !important;
+
+    background: #f0fdf4 !important;
+    color: #14532d !important;
+
+    text-align: left !important;
+    font-size: 14px !important;
+    line-height: 1.5 !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+
+    border: 1px solid #86efac !important;
+    border-left: 4px solid #16a34a !important;
+    border-radius: 8px !important;
+
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08) !important;
+
+    opacity: 0 !important;
+    transform: translateY(-10px) !important;
+
+    transition: opacity 0.35s ease, transform 0.35s ease !important;
+}
+
+.career_success_message::before {
+    content: "\2713";
+
+    position: absolute !important;
+    left: 16px !important;
+    top: 16px !important;
+
+    width: 22px !important;
+    height: 22px !important;
+
+    background: #16a34a !important;
+    color: #ffffff !important;
+
+    border-radius: 50% !important;
+
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    font-size: 12px !important;
+    font-weight: 700 !important;
+}
+
+.career_success_message.show {
+    display: block !important;
+
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+}
+
+.career_success_message.hide {
+    opacity: 0 !important;
+    transform: translateY(-10px) !important;
+}
+
+
+/* =========================================================
+   ERROR
+   ========================================================= */
+
+.career_form_container .career_error_message {
+    width: 100% !important;
+
+    margin: 0 0 20px 0 !important;
+    padding: 12px 15px !important;
+
+    background: #fff1f1 !important;
+
+    color: #d32f2f !important;
+
+    border: 1px solid #d32f2f !important;
+    border-radius: 5px !important;
+}
+
+
+/* =========================================================
+   CUSTOM FIELDS — RADIO / CHECKBOX / TEXTAREA
+   ========================================================= */
+
+.career_form_container textarea {
+    display: block !important;
+
+    width: 100% !important;
+    max-width: 100% !important;
+
+    min-height: 90px !important;
+
+    margin: 0 !important;
+    padding: 10px 14px !important;
+
+    border: 1px solid #b8b8b8 !important;
+    border-radius: 5px !important;
+
+    background: #ffffff !important;
+    color: #222222 !important;
+
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 16px !important;
+    line-height: 1.4 !important;
+
+    outline: none !important;
+    box-shadow: none !important;
+
+    resize: vertical !important;
+}
+
+.career_form_container textarea:focus {
+    border-color: #2271b1 !important;
+    box-shadow: 0 0 0 2px rgba(34, 113, 177, 0.15) !important;
+}
+
+.career_form_container .career_custom_radio_group {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 14px !important;
+
+    padding: 6px 0 !important;
+}
+
+.career_form_container .career_custom_radio_option,
+.career_form_container .career_custom_checkbox_option {
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 6px !important;
+
+    font-size: 15px !important;
+    font-weight: 400 !important;
+    color: #222222 !important;
+
+    cursor: pointer !important;
+}
+
+.career_form_container .career_custom_radio_option input,
+.career_form_container .career_custom_checkbox_option input {
+    width: 16px !important;
+    height: 16px !important;
+
+    margin: 0 !important;
+
+    cursor: pointer !important;
+}
+
+
+/* =========================================================
+   HIDDEN INPUT
+   ========================================================= */
+
+.career_form_container input[type="file"][hidden] {
+    display: none !important;
+}
+
+/* =========================================================
+   FIELD-SPECIFIC REQUIRED ERROR
+   ========================================================= */
+
+.career_form_container
+.career_field_required_error {
+
+    display: block !important;
+
+    width: 100% !important;
+
+    margin: 0 0 6px 0 !important;
+
+    padding: 0 !important;
+
+    background: transparent !important;
+
+    border: 0 !important;
+
+    color: #d32f2f !important;
+
+    font-family: Arial, Helvetica, sans-serif !important;
+
+    font-size: 13px !important;
+
+    font-weight: 600 !important;
+
+    line-height: 1.4 !important;
+
+    text-align: left !important;
+}
+
+
+/* Invalid field */
+
+.career_form_container
+.career_required_error {
+
+    border-color: #d32f2f !important;
+
+    box-shadow:
+        0 0 0 1px rgba(211, 47, 47, 0.20) !important;
+}
+
+/* Mobile */
+
+@media (max-width: 767px) {
+
+    .career_form_container
+.career_field_required_error {
+
+        top: 15px !important;
+        right: 15px !important;
+        left: 15px !important;
+
+        width: auto !important;
+        min-width: 0 !important;
+        max-width: none !important;
+    }
+}
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 767px) {
+
+    .career_form_container {
+        width: calc(100% - 30px) !important;
+        max-width: 100% !important;
+
+        margin: 25px auto 40px !important;
+
+        padding: 22px !important;
+    }
+
+    .career_form_container h1 {
+        font-size: 30px !important;
+
+        margin-bottom: 25px !important;
+    }
+
+    .career_form_container .career_form_group {
+        margin-bottom: 18px !important;
+    }
+
+    .career_form_container input[type="text"],
+    .career_form_container input[type="email"],
+    .career_form_container input[type="tel"],
+    .career_form_container select {
+        height: 48px !important;
+
+        font-size: 15px !important;
+    }
+
+    .career_form_container .career_upload_content {
+    padding: 16px 12px !important;
+}
+
+    .career_form_container .career_form_action button {
+        width: 100% !important;
+        min-width: 0 !important;
+    }
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+   ========================================================= */
+
+@media (max-width: 480px) {
+
+    .career_form_container {
+        width: calc(100% - 20px) !important;
+
+        padding: 18px !important;
+    }
+
+    .career_form_container h1 {
+        font-size: 26px !important;
+    }
+}
